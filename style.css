@@ -1,0 +1,54 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    font-family: "Open Sans", serif;
+    padding: 60px;
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.page-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+#home {
+    background-image: url('./images/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu {
+    background-image: url('./images/menu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
