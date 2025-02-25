@@ -125,7 +125,7 @@ html, body {
 #about {
     background-image: url('./images/about2.png');
     background-size: cover;
-    background-position: 0% 45%;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -152,6 +152,17 @@ html, body {
     text-align: center;
 }
 
+.about-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-box a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 .about-box.left {
     text-align: left;
 }
@@ -164,3 +175,130 @@ html, body {
     text-align: right;
 }
 
+/* Order Section Styling */
+#order-now {
+    background-image: url('./images/order.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.order-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.order-box {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    width: 300px;
+    height: 190px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-box {
+    width: 100%;
+    height: 300px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-box textarea {
+    height: 50px;
+    resize: none;
+}
+
+.contact-box button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-box button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.order-box button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.order-box button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#find-us {
+    background-image: url('./images/map.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.map-section {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    width: 100vw;
+    font-family: "Open Sans", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.map-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
