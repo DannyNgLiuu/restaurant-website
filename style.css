@@ -188,6 +188,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Open Sans", serif;
 }
 
 .order-container {
@@ -301,4 +302,300 @@ html, body {
     height: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .restaurant-name {
+        position: absolute;
+        text-align: center;
+        top: 13%;
+        width: 100%;
+        font-family: "Open Sans", serif;
+        color: white;
+        font-size: 45px;
+        font-weight: 100;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        z-index: 1000;
+        font-family: "Open Sans", serif;
+        display: flex;
+        justify-content: center;
+        gap: 1px;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    
+    .page-section {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        
+    }
+    
+    #home {
+        background-image: url('./images/banner.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .content1 {
+        max-width: 50%;
+        position: absolute;
+        top: 33%;
+        font-family: "Open Sans", serif;
+        font-size: 15px;
+        text-shadow: 2px 2px 5px black
+    }
+    #menu {
+        background-image: url('./images/menumobile6.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .slider img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+    }
+    
+    .slider {
+        min-height: 100vh;
+        display: flex;
+        overflow-x: auto; 
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    }
+    
+    .slider-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .slider-nav {
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    
+    .slider-nav a{
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+    }
+    
+    .slider-nav a:hover {
+        opacity: 1;
+    }
+    
+    #about {
+        background-image: url('./images/about2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .about-container {
+        position: relative;
+        top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+        font-family: "Open Sans", serif;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+    }
+    
+    .about-box {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .about-box h2,p {
+        text-align: center;
+    }
+    
+    .about-box a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .about-box a:hover {
+        color: black;
+        text-decoration: underline;
+    }
+    
+    #order-now {
+        background-image: url('./images/order.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+    .order-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .order-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .order-box {
+        background-color: white;
+        color: black;
+        padding: 30px;
+        width: 300px;
+        height: 190px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .contact-box {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .contact-box input,
+    .contact-box textarea {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    
+    .contact-box textarea {
+        height: 50px;
+        resize: none;
+    }
+    
+    .contact-box button {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    .contact-box button:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    
+    .order-box button {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .order-box button:hover {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    
+    #find-us {
+        background-image: url('./images/map.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+    }
+    
+    .map-section {
+        color: white;
+        text-shadow: 2px 2px 5px black;
+        text-align: center;
+        width: 100vw;
+        font-family: "Open Sans", serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .map-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 800px;
+    }
+    
+    .map-container iframe {
+        width: 100%;
+        max-width: 300px;
+        height: 600px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
 }
