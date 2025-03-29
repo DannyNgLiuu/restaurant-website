@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "cheese pizza",
+        "price": 200,
+        "image": "images/pic1.png"
+    },
+    {
+        "id": 2,
+        "name": "cheese pizza",
+        "price": 200,
+        "image": "images/pic2.png"
+    },
+    {
+        "id": 3,
+        "name": "cheese pizza",
+        "price": 200,
+        "image": "images/pic3.png"
+    },
+    {
+        "id": 4,
+        "name": "cheese pizza",
+        "price": 200,
+        "image": "images/pic4.png"
+    },
+    {
+        "id": 5,
+        "name": "cheese pizza",
+        "price": 200,
+        "image": "images/pic5.png"
+    },
+    {
+        "id": 6,
+        "name": "cheese pizza",
+        "price": 200,
+        "image": "images/pic6.png"
+    },
+    {
+        "id": 7,
+        "name": "cheese pizza",
+        "price": 200,
+        "image": "images/pic7.png"
+    }
+]
