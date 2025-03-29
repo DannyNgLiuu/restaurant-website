@@ -52,6 +52,8 @@ header .icon-cart span{
 }
 
 .listProduct .item img{
+    max-width: 100px;
+    max-height: 80px;
     width: 90%;
     filter: drop-shadow(0 50px 20px #0009);
 }
@@ -131,6 +133,8 @@ body.showCart .container{
 }
 
 .cartTab .listCart .item img{
+    max-width: 80px;
+    max-height: 80px;
     width: 100%
 }
 
