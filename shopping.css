@@ -109,6 +109,10 @@ body.showCart .container{
     transform: translateX(-250px);
 }
 
+body.showCart .icon-cart {
+    display: none;
+}
+
 .cartTab h1{
     padding: 20px;
     margin: 0;
@@ -147,13 +151,20 @@ body.showCart .container{
 }
 
 .listCart .quantity span{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 25px;
     height:25px;
     background-color: #eee;
     color: #555;
     border-radius: 50%;
     cursor: pointer;
+    
+}
+
+.quantity {
+    display: flex;
 }
 
 .listCart .quantity span:nth-child(2){
