@@ -1,0 +1,44 @@
+export const products = [
+    {
+      id: 1,
+      name: "Cheese Pizza",
+      price: 3.75,
+      image: "/images/pic1.png"
+    },
+    {
+      id: 2,
+      name: "Mushroom Pizza",
+      price: 4.50,
+      image: "/images/mushroom.png"
+    },
+    {
+      id: 3,
+      name: "Pepperoni Pizza",
+      price: 4.25,
+      image: "/images/pepperoni.png"
+    },
+    {
+      id: 4,
+      name: "Sausage Pizza",
+      price: 4.25,
+      image: "/images/sausage.png"
+    },
+    {
+      id: 5,
+      name: "Buratta Pizza",
+      price: 6.00,
+      image: "/images/buratta.png"
+    },
+    {
+      id: 6,
+      name: "Cannoli",
+      price: 3.50,
+      image: "/images/cannoli.png"
+    },
+    {
+      id: 7,
+      name: "Chocolate Cake",
+      price: 7.00,
+      image: "/images/chocolate.png"
+    }
+  ];
